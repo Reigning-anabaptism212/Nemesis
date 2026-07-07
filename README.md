@@ -139,3 +139,4 @@ hit me up if you want a commercial license:
 
 > quick note i have to look into compilemethod and fix it as of now its not somewhat needed as crypters dont usually use it at all... since they have to use `asm.load(...)`
 > also reminds me i have to check rdata str as i havent test that properly sadly...
+> dont do a PR with a dumb code please, u cannot hook n(Native) backends e.g nLoadImage normall u have to preserve registers and its just meh, thats why we use asm. 
