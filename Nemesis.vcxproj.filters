@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Init">
+      <UniqueIdentifier>{c4e8f1a2-9b3d-4e5f-a1c2-8d7e6f5a4b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{9d1e7e13-2ac7-4f9d-9c5f-3d1a9e8f0e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks">
+      <UniqueIdentifier>{6b9c1a44-8f1d-4a7a-88a2-1c6f4e2e7c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Detections">
+      <UniqueIdentifier>{7c0d2b55-9021-4b8b-99b3-2d7f5f3f8d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Detections\Amsi">
+      <UniqueIdentifier>{8d1e3c66-a132-4c9c-aac4-3e806040ae07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Detections\Etw">
+      <UniqueIdentifier>{9e2f4d77-b243-4dad-bbd5-4f9171519f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Asm">
+      <UniqueIdentifier>{2b7d0c45-6a12-4c39-9f3f-b83a6c2f1a03}</UniqueIdentifier>
+      <Extensions>asm;s</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Asm\X64">
+      <UniqueIdentifier>{a4c5d6e7-1122-4b33-8899-aabbccddeef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Asm\X64\Clr">
+      <UniqueIdentifier>{b5d6e7f8-2233-4c44-99aa-bbccddeeff02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Init">
+      <UniqueIdentifier>{d5f9a2b3-0c4e-4f6a-b2d3-9e8f7a6b5c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{d3f1e5c9-77aa-4b6d-9c1e-4d5f6a7b8c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hooks">
+      <UniqueIdentifier>{e4a2b6d0-88bb-4c7e-ad2f-5e6f7a8b9c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detections">
+      <UniqueIdentifier>{f5b3c7e1-99cc-4d8f-be40-6f7089a0b107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detections\Amsi">
+      <UniqueIdentifier>{06c4d8f2-aadd-4e9a-cf51-7081b1c1c208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{28e6f904-ccde-4fab-e173-92a3d3e4e410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Init\Runtime.cpp">
+      <Filter>Source Files\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hooks\ClrNativeInspect.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hooks\ClrHooks.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser\Internal.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Detections\CustomLoadImage.cpp">
+      <Filter>Source Files\Detections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Detections\DiskImage.cpp">
+      <Filter>Source Files\Detections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Detections\Amsi\Amsi.cpp">
+      <Filter>Source Files\Detections\Amsi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Detections\ExportCompare.cpp">
+      <Filter>Source Files\Detections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Detections\Etw\Etw.cpp">
+      <Filter>Source Files\Detections\Etw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Init\Runtime.h">
+      <Filter>Header Files\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hooks\ClrNativeInspectDetail.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hooks\ClrNativeInspect.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hooks\ClrHooks.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Parser\Internal.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Detections\CustomLoadImage.h">
+      <Filter>Header Files\Detections</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Detections\DiskImage.h">
+      <Filter>Header Files\Detections</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Detections\Amsi\Amsi.h">
+      <Filter>Header Files\Detections\Amsi</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Detections\ExportCompare.h">
+      <Filter>Header Files\Detections</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\Path.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Detections\Etw\Etw.h">
+      <Filter>Header Files\Detections\Etw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="src\Asm\X64\Clr\Native.asm">
+      <Filter>Source Files\Asm\X64\Clr</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Nemesis.slnx" />
+  </ItemGroup>
+</Project>
